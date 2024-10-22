@@ -4,9 +4,9 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="p-5 bg-grey text-white flex flex-col ">
+    <div className="p-5 bg-grey text-white flex flex-col flex-wrap ">
         {/* Content */}
-        <div className="mb-3 flex justify-around m-2">
+        <div className="mb-3 flex flex-wrap justify-around m-2">
             {/* Quick Links */}
             <div className="flex flex-col">
                 <p className="text-lg truncate font-bold">Quick Links</p>
@@ -20,11 +20,11 @@ const Footer = () => {
             {/* Other Services */}
             <div className="flex flex-col">
                 <p className="text-lg truncate font-bold">Services</p>
-                <div className="p-2 flex flex-col">
-                    <a>Researchpedia</a>
-                    <a>Researchers Gallery</a>
-                    <a>Academics Research Library</a>
-                    <a>Visa</a>
+                <div className="p-2 flex flex-col ">
+                    <a href="">Researchpedia</a>
+                    <a href="">Researchers Gallery</a>
+                    <a href="">Academy Research Library</a>
+                    <a href="">Visa</a>
                 </div>
             </div>
             {/* Contact */}
